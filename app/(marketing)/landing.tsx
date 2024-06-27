@@ -118,10 +118,11 @@ export const Landing = () => {
                     </div>
                 </div>
                 
-                <div ref={missionRef} className={`flex-1 p-6 bg-blue-50 rounded-md shadow-md flex flex-col items-center transform transition-transform duration-700 ${missionInView ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+                <div ref={missionRef} className={`flex-1 p-6 bg-blue-50 rounded-md shadow-md flex flex-col items-center mb-8 lg:mb-0 transform transition-transform duration-700  ${missionInView ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
                 <Image src="/GymBro-Landing-Page-Static/missionImage.svg" alt="Top Image"  width={300} height={200} className="mb-8 mx-auto rounded-md " />
-                    
-                    <h1 className="text-2xl md:text-6xl font-bold mb-4 text-blue-600">Our Mission</h1>
+                    <div className="flex items-center mb-4">
+                        <h1 className="text-4xl md:text-6xl font-bold text-blue-600">Our Mission</h1>
+                    </div>
                     <br/>
                     <div className="border p-4 italic">
                         <p className="text-gray-700 text-sm md:text-base lg:text-lg leading-relaxed">
