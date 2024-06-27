@@ -66,7 +66,7 @@ export const Landing = () => {
 
     return (
         <div className="flex flex-col items-center justify-center w-full py-8 bg-white" >
-            <div ref={carouselRef} className={`w-full max-w-4xl mx-auto p-4 bg-orange-300 rounded-md shadow-md mb-8 transform transition-transform duration-700 ${carouselInView ? 'scale-100 opacity-100' : 'scale-90 opacity-0'}`}>
+            <div ref={carouselRef} className={`w-full max-w-4xl mx-auto p-4 bg-orange-50 rounded-md shadow-md mb-8 transform transition-transform duration-700 ${carouselInView ? 'scale-100 opacity-100' : 'scale-90 opacity-0'}`}>
                 <div className="flex justify-center mb-4 space-x-2">
                     {carouselItems.map((_, index) => (
                         <div
@@ -93,8 +93,12 @@ export const Landing = () => {
                 </div>
             </div>
 
+
             <div className="flex flex-col lg:flex-row w-full max-w-4xl mx-auto space-x-4 mb-8">
-                <div ref={potentialRef} className={`flex-1 p-6 bg-green-100 rounded-md shadow-md flex flex-col items-center mb-8 lg:mb-0 transform transition-transform duration-700 ${potentialInView ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
+                
+                <div ref={potentialRef} className={`flex-1 p-6 bg-green-50 rounded-md shadow-md flex flex-col items-center mb-8 lg:mb-0 transform transition-transform duration-700 ${potentialInView ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
+                <Image src="/GymBro-Landing-Page-Static/socialImage.svg" alt="Top Image"  width={300} height={200} className="mb-8 rounded-md " />
+
                     <div className="flex items-center mb-4">
                         <h1 className="text-4xl md:text-6xl font-bold text-blue-600">Unleash your potential</h1>
                     </div>
@@ -113,18 +117,23 @@ export const Landing = () => {
                         </a>
                     </div>
                 </div>
-                <div ref={missionRef} className={`flex-1 p-6 bg-blue-200 rounded-md shadow-md text-center transform transition-transform duration-700 ${missionInView ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-                    <h1 className="text-2xl md:text-4xl font-bold mb-4 text-blue-600">Our Mission</h1>
+                
+                <div ref={missionRef} className={`flex-1 p-6 bg-blue-50 rounded-md shadow-md flex flex-col items-center transform transition-transform duration-700 ${missionInView ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+                <Image src="/GymBro-Landing-Page-Static/missionImage.svg" alt="Top Image"  width={300} height={200} className="mb-8 mx-auto rounded-md " />
+                    
+                    <h1 className="text-2xl md:text-6xl font-bold mb-4 text-blue-600">Our Mission</h1>
+                    <br/>
                     <div className="border p-4 italic">
                         <p className="text-gray-700 text-sm md:text-base lg:text-lg leading-relaxed">
-                            GymBro aims to revolutionize the fitness app industry by captivating users with an exciting and gamified workout experience. We strive to keep fitness journeys motivating and engaging while ensuring realistic fitness goals to minimize the risk of injury and strain. By integrating cutting-edge AI, we provide personalized, on-the-spot advice, guiding users through their fitness journey akin to having a personal trainer!
+                            GymBro aims to revolutionize the fitness app industry by captivating users with an exciting and gamified workout experience. We strive to keep fitness journeys motivating and engaging while ensuring realistic fitness goals to minimize the risk of injury and strain.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <form ref={formRef} onSubmit={handleEmailSubmit} className={`mt-8 mb-8 flex flex-col items-center bg-purple-200 p-6 rounded-md shadow-md w-full max-w-4xl transform transition-transform duration-700 ${formInView ? 'scale-100 opacity-100' : 'scale-90 opacity-0'}`}>
-                <label htmlFor="email" className="text-2xl md:text-4xl font-bold mb-2 text-blue-600">Keep in the loop!</label>
+            <form ref={formRef} onSubmit={handleEmailSubmit} className={`mt-8 mb-8 flex flex-col items-center bg-purple-50 p-6 rounded-md shadow-md w-full max-w-4xl transform transition-transform duration-700 ${formInView ? 'scale-100 opacity-100' : 'scale-90 opacity-0'}`}>
+                <label htmlFor="email" className="text-2xl md:text-6xl font-bold mb-2 text-blue-600">Keep in the loop!</label>
+                <br/>
                 <p className="text-sm md:text-base lg:text-lg text-gray-400 mb-4">Subscribe for the latest GymBro development updates</p>
                 <input
                     type="email"
