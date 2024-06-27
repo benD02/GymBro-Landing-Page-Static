@@ -16,8 +16,8 @@ export const Header = () => {
         <header className="h-12 w-full border-b-2 border-blue-200 px-4 bg-gray-800 opacity-41">
             <div className="lg:max-w-screen-lg mx-auto flex items-center justify-between h-full">
                 <div className="flex items-center gap-x-3">
-                    <Image src="/slogo.svg" height={32} width={32} alt="Mascot" />
-                    <h1 className="text-lg font-extrabold text-slate-100 tracking-wide">
+                <Image src="/GymBro-Landing-Page-Static/slogo.svg" height={32} width={32} alt="Mascot" />
+                <h1 className="text-lg font-extrabold text-slate-100 tracking-wide">
                         GymBro
                     </h1>
                 </div>

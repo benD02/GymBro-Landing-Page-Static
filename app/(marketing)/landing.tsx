@@ -16,27 +16,27 @@ export const Landing = () => {
         {
             heading: "Choose a GymBro AI companion!",
             description: "Choose from a variety of AI companions to assist you. Your Gymbro will provide you with tailored feedback and realtime guidance.",
-            image: "/aiComp.svg"
+            image: "/GymBro-Landing-Page-Static/aiComp.svg"
         },
         {
             heading: "Gamify your workout",
             description: "Navigate your fitness journey in a fun and motivating way. Commence at a basic level and gradually progress!",
-            image: "/gameWorkout.svg"
+            image: "/GymBro-Landing-Page-Static/gameWorkout.svg"
         },
         {
             heading: "Sustainable fitness progression",
             description: "Minimize the risk of injury with gradual and sustainable advancement. Receive on-the-spot insight from your GymBro!",
-            image: "/helper.svg"
+            image: "/GymBro-Landing-Page-Static/helper.svg"
         },
         {
             heading: "Compete with friends!",
             description: "Partake in joint workouts with your friends to compete and motivate each other!",
-            image: "/compete.svg"
+            image: "/GymBro-Landing-Page-Static/compete.svg"
         },
         {
             heading: "Earn and spend Gems!",
             description: "Earn gems throughout your workout to spend on new workout styles and equipment in the GymBro store!",
-            image: "/gems.svg"
+            image: "/GymBro-Landing-Page-Static/gems.svg"
         },
     ];
 

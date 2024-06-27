@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    basePath: '/GymBro-Landing-Page-Static',
+    assetPrefix: '/GymBro-Landing-Page-Static/',
+  };
+  
+  export default nextConfig;
+  

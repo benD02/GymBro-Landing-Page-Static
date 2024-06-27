@@ -10,7 +10,7 @@ type Props = {
 const MarketingLayout = ({ children }: Props) => {
     return (
         <div className="min-h-screen flex flex-col">
-            <main className="flex-1 flex flex-col items-center justify-center w-full" style={{ backgroundImage: "url('/background.png')" }}>
+            <main className="flex-1 flex flex-col items-center justify-center w-full" style={{ backgroundImage: "url('/GymBro-Landing-Page-Static/background.png')" }}>
             <Header />
                 {children}
             </main>

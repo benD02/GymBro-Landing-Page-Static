@@ -14,10 +14,10 @@ export default function Home() {
 
   return (
     <div className="relative flex flex-1 w-full items-center justify-center">
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/gym.png')", filter: "blur(2px)" }}></div>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/GymBro-Landing-Page-Static/gym.png')", filter: "blur(2px)" }}></div>
       <div className="relative max-w-[988px] mx-auto flex-1 w-full flex flex-col lg:flex-row items-center justify-center p-4 gap-2 animate-fadeIn">
         <div className="relative w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] mb-8 lg:mb-0 animate-slideIn">
-          <Image src="/logo.svg" fill alt="Hero" />
+          <Image src="/GymBro-Landing-Page-Static/logo.svg" fill alt="Hero" />
         </div>
         <div className="flex flex-col items-center gap-y-8 bg-white bg-opacity-80 p-6 rounded-md shadow-md animate-fadeIn">
           <h1 className="text-xl lg:text-3xl font-bold text-neutral-600 max-w-[480px] text-center animate-fadeIn">
